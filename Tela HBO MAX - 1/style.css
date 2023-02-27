@@ -1,0 +1,67 @@
+body{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header img{
+        width: 32%;
+    }
+
+    header h2{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        margin-bottom: 50px;
+        
+    }
+    header h1{
+        margin-bottom: 0;
+    }
+
+    main form{
+        display: flex;
+        flex-direction: column;
+      
+    }
+    main form label{
+        margin-bottom: 8px;
+    }
+
+    main form input{
+        width: 30%;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    main form input[type="submit"]{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 150px;
+        cursor: pointer;
+        
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    footer input{
+        width: 160px;
+        padding: 5px;
+        margin-top: 30px;
+        cursor: pointer;
+
+}
+    
